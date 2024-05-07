@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Combined Responsive Navigation</title>
+</head>
+<body>
+<!--Navigation Bar/Header Code-->
+<div class="topnav" id="myTopnav">
+    <a href="home.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="FAQs.html">FAQs</a>
+    <a href="workshops.html">Workshops</a>
+    <div class="resources">
+      <button class="resourcesbtn">Resources
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="resources-content">
+        <a href="#linkss">Links</a>
+        <a href="#tools">Tools</a>
+        <a href="#files">Files</a>
+        <a href="#misc">Misc</a>
+      </div>
+    </div>
+    <a href="#contact">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    <div class="search-container">
+        <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+</div>

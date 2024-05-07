@@ -8,7 +8,9 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open MMCHS-Resources.html",
-            "file": "/Users/daniel/Documents/GitHub/mmchs-resources/MMCHS-Resources.html"
+            "file": "/Users/daniel/Documents/GitHub/mmchs-resources/MMCHS-Resources.html",
+            "url": "file:///Users/daniel/Documents/GitHub/mmchs-resources/MMCHS-Resources.html", // Specify the URL of your application here
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
